@@ -1,0 +1,165 @@
+:root {
+    --b: black;
+    --w: white;
+    --g: rgb(225, 223, 223);
+}
+
+* {
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+#content-container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+button{
+    font-family: 'Shadows Into Light', cursive;
+    background: var(--b);
+    color: var(--w);
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 17px;
+    background: var(--b);
+    color: var(--w);
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+}
+
+.vl {
+    border-left: 6px solid var(--b);
+    padding: 1em;
+}
+
+
+
+#img2 {
+    width: 300px;
+    height: 125px;
+}
+
+#content-container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#description {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    background-color: var(--g);
+    text-align: center;
+    padding: 120px;
+    width: 500px;
+    border-radius: 15px;
+    margin: 20px 0px 0px 0px;
+}
+
+#recipe-styling {
+    display: flex; 
+    border-left: 6px solid var(--b);
+    padding: 1em; 
+}
+
+#drink-recipe {
+    display: flex;
+    background-color: var(--g);
+    border-radius: 20px;
+    margin: 3px; 
+    flex-direction: column;
+}
+
+#food-recipe {
+    display: flex;
+    background-color: var(--g);
+    border-radius: 20px;
+    margin: 3px; 
+    flex-direction: column;
+}
+
+#drink-recipe h2 {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+#food-recipe h2 {
+    font-family:'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+#drink-recipe img {
+   align-self: center;
+   height: 300px;
+   width: 300px; 
+   padding-bottom: 30px;
+}
+
+#food-recipe img {
+    align-self: center;
+    font-family:'Shadows Into Light', cursive;
+    padding-bottom: 30px;
+ }
+
+#button-container {
+    display: flex; 
+    border-left: 6px solid var(--b);
+    padding: 1em; 
+    justify-content: center;
+}
+
+a {
+    font-family:'Shadows Into Light', cursive;
+    color: var(--w);
+    text-decoration: none;
+}
+
+p {
+    font-family:'Shadows Into Light', cursive; 
+}
+
+img {
+    justify-content: center;
+    height: 300px;
+    width: 300px; 
+}
+
+#drink-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#meal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
